@@ -1,6 +1,6 @@
 // COMBINADOR DE COLORES PRIMARIOS PARA OBTENER LOS SECUNDARIOS Y ESCALA CROMATICA
 
-let rojo, azul, amarillo , escala, color= prompt("Ingrese un 1er color primario: rojo, azul o amarillo \n tambien con ESCALA puede ver la escala cromática \n o ponga EXIT para terminar").toLocaleLowerCase()
+let rojo, azul, amarillo , escala, color= prompt("Ingrese un 1er color primario: rojo, azul o amarillo \nTambien con ESCALA puede ver la escala cromática en la consola \nO ponga EXIT para terminar.").toLocaleLowerCase()
 let croma = ["verde","azul verdoso","azul","azul violeta","violeta","rojo violeta","rojo","rojo naranja","naranja","amarillo naranja","amarillo","amarillo verde"]
 
 while(color != 'exit'){ 
@@ -54,7 +54,7 @@ while(color != 'exit'){
         }
        
         
-    color= prompt("Vuelva a intentarlo, ingrese un 1er color primario: rojo, azul y amarillo \n tambien con ESCALA puede ver la escala cromática \n o ponga EXIT para terminar").toLocaleLowerCase()
+    color= prompt("Vuelva a intentarlo, ingrese un 1er color primario: rojo, azul y amarillo \nTambien con ESCALA puede ver la escala cromática \nO ponga EXIT para terminar.").toLocaleLowerCase()
 }
 
 alert("Gracias por venir! Por Alexis Bonetti")
